@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;900&family=Montserrat&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500&family=Secular+One&family=Shadows+Into+Light&family=Source+Sans+Pro:wght@200&display=swap');
+
+
+.lightApp {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  transition: 0.5s;
+  background: #65AFEF;
+}
+.darkApp{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  background: #00111F;
+  transition: 0.5s;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+input{
+  height: 30px;
+  padding: 5px 10px 5px;
+  border-radius: 10px;
+  border: 2px solid grey;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+
+  transition: 0.5s;
+}
+input:hover{
+  border-color: black;
+}
+button {
+  display: flex;
+  width: 80px;
+  border-radius: 50px;
+  border: 0px solid ;
+  background: #9CD1FF;
+  padding: 1px;
+  margin: 0;
+  transition: 0.5s;
+}
+/*.lightBtn{*/
+/*  display: flex;*/
+/*  width: 80px;*/
+/*  border-radius: 50px;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  background: #fff;*/
+/*}*/
+/*.darkBtn{*/
+/*  display: flex;*/
+/*  width: 80px;*/
+/*  border-radius: 50px;*/
+/*  padding: 0;*/
+/*  margin: 0;*/
+/*  background: #fff;*/
+/*}*/
+svg{
+  padding: 0;
+  margin: 0;
+  transition: 0.3s;
+}
